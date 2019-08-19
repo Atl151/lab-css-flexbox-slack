@@ -374,13 +374,13 @@ footer > div:last-child > div > div > img {
   main > div:first-child > div > div:nth-child(2),
   main > div:first-child > div > div:nth-child(3),
   main > div:first-child > div > div:nth-child(4) {
-    border-bottom: 2px solid #dbdadb;
+    border-bottom: 1px solid #dbdadb;
   }
 
   main > div:first-child > div > div:nth-child(1),
   main > div:first-child > div > div:nth-child(3),
   main > div:first-child > div > div:nth-child(5) {
-    border-right: 2px solid #dbdadb;
+    border-right: 1px solid #dbdadb;
   }
 }
 
@@ -413,6 +413,32 @@ footer > div:last-child > div > div > img {
   main > div:first-child > p,
   main > div:first-child > button {
     width: 90%;
+  }
+
+  main > div:first-child > div > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 200px;
+    padding: 20px 80px;
+  }
+
+  main > div:first-child > div > div:nth-child(1),
+  main > div:first-child > div > div:nth-child(2),
+  main > div:first-child > div > div:nth-child(3),
+  main > div:first-child > div > div:nth-child(4) {
+    border-bottom: none;
+  }
+
+  main > div:first-child > div > div:nth-child(1),
+  main > div:first-child > div > div:nth-child(3),
+  main > div:first-child > div > div:nth-child(5) {
+    border-right: none;
+  }
+
+  main > div:first-child > div > div:not(:last-child) {
+    border-bottom: 1px solid #dbdadb;
   }
 
   /*Second section*/
